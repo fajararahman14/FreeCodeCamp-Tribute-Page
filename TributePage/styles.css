@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Montserrat&display=swap");
+
+body {
+    font-family: Montserrat, sans-serif;
+    padding-top: 70px;
+    background-color: #eee;
+    margin: 0 0 0 10px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+#main {
+    text-align: center;
+}
+
+#image {
+    display: block;
+}
+
+#img-div {
+    max-width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-caption {
+    margin: 20px auto;
+}
+
+.main #detail {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#tribute-info {
+    width: 600px;
+    margin: 25px auto;
+}
+
+#tribute-info h2 {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.book {
+    position: relative;
+}
+
+.book .book-img {
+    width: 100%;
+    height: 100%;
+}
+
+.books-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.books-overlay:hover {
+    opacity: 1;
+}
+
+.release-date {
+    font-size: 12px;
+}
+
+.books-title {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#tribute-link {
+    color: #477ca7;
+}
+
+#tribute-link a:visited {
+    color: #6b7aa1;
+}
